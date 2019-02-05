@@ -11,7 +11,7 @@ CRUD operations.
 #### Python (https://www.python.org/)
 
 ### Technologies Used
-#### HTML
+* HTML
 #### CSS
 #### Python 
 #### Flask (Python web development framework)
