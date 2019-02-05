@@ -6,9 +6,9 @@ framework to build a web application and SQlAlchemy database to perform
 CRUD operations.
 
 ### Required Software for the Project:
-#### Virtual Box (https://www.virtualbox.org/)
-#### Vagrant (https://www.vagrantup.com/)
-#### Python (https://www.python.org/)
+* **Virtual Box (https://www.virtualbox.org/)**
+* **Vagrant (https://www.vagrantup.com/)**
+* **Python (https://www.python.org/)**
 
 ### Technologies Used
 * **HTML**
