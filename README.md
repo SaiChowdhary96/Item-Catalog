@@ -18,7 +18,9 @@ CRUD operations.
 #### SQLAlchemy database
 
 To install 'Flask' and 'SQLAlchemy' database use the following commands:
+
 `$ pip3 install Flask`
+
 `$ pip3 install sqlalchemy`
 
 ### Services used
@@ -26,13 +28,17 @@ To install 'Flask' and 'SQLAlchemy' database use the following commands:
 
 Firstly install Virtual Box, Vagrant and Python.
 Open your project folder and add and intialize the vagrant box by using the following commands:
+
 `$ vagrant box add ubuntu/trusty64`
+
 `$ vagrant init ubuntu/trusty64`
 
 Now use the following command to bring up the virtual machine:
+
 `$ vagrant up`
 
 Connect to the virtual machine by using the following command:
+
 `$ vagrant ssh`
 
 Now a terminal opens and following is displayed:
@@ -49,6 +55,7 @@ This file contains configuration related to databases like tables
 and their columns. By running this file, a database and their corresponding tables and columns will be created and a file 'pcgames.db' is generated.
 
 Use the following command to run the file
+
 `$ python3 database_setup.py` 
 
 ### list_of_games.py
@@ -57,6 +64,7 @@ By running this file dummy values are dumped into 'pcgames.db' file which
 is our database file.
 
 Use the following command to run the file
+
 `$ python3 list_of_games.py`
 
 ### final_project.py
@@ -68,9 +76,11 @@ the items added by another user.
 For authentication and authorization purpose we will be 'Google OAuth2 API' service provided by Google.
 
 Use the following command to run the file
+
 `$ python3 final_project.py`
 
 To see the ouput, open your browser and goto the following URL:
+
 `http://localhost:7000`
 
 ### This project requires an internet connection as styles and images used are from different sources of internet.
