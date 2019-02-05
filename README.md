@@ -46,9 +46,9 @@ Now a terminal opens and following is displayed:
 **vagrant@vagrant-ubuntu-trusty-64:~$**
 
 Navigate to vagrant directory and create the following files:
-#### database_setup.py
-#### list_of_games.py
-#### final_project.py
+* **database_setup.py**
+* **list_of_games.py**
+* **final_project.py**
 
 ### database_setup.py
 This file contains configuration related to databases like tables 
