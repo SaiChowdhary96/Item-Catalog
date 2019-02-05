@@ -331,12 +331,12 @@ def newGame(game_type_id):
                              game_type_id=game_type_id,
                              game_type=game_type,
                              user_id=game_type.user_id)
-            session.add(pcgame)
-            session.commit()
-            return redirect(url_for('showGames', game_type_id=game_type_id))
-        else:
-                return render_template('newgame.html',
-                                       game_type_id=game_type_id)
+        session.add(pcgame)
+        session.commit()
+        return redirect(url_for('showGames', game_type_id=game_type_id))
+    else:
+        return render_template('newgame.html',
+                               game_type_id=game_type_id)
 
 
 @app.route('/gametype/<int:game_type_id>/game/<int:game_id>/edit/', methods=[
