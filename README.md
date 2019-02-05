@@ -24,7 +24,7 @@ To install 'Flask' and 'SQLAlchemy' database use the following commands:
 
 `$ pip3 install sqlalchemy`
 
-### Services used
+### API's used
 * **Google OAuth2 API (For Authentication and Authorization Purpose.)**
 
 Firstly install Virtual Box, Vagrant and Python.
