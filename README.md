@@ -11,11 +11,11 @@ CRUD operations.
 #### Python (https://www.python.org/)
 
 ### Technologies Used
-* HTML
-#### CSS
-#### Python 
-#### Flask (Python web development framework)
-#### SQLAlchemy database
+* **HTML**
+* **CSS**
+* **Python** 
+* **Flask (Python web development framework)**
+* **SQLAlchemy database**
 
 To install 'Flask' and 'SQLAlchemy' database use the following commands:
 
@@ -24,7 +24,7 @@ To install 'Flask' and 'SQLAlchemy' database use the following commands:
 `$ pip3 install sqlalchemy`
 
 ### Services used
-#### Google OAuth2 API (For Authentication and Authorization Purpose.)
+* **Google OAuth2 API (For Authentication and Authorization Purpose.)**
 
 Firstly install Virtual Box, Vagrant and Python.
 Open your project folder and add and intialize the vagrant box by using the following commands:
@@ -43,7 +43,7 @@ Connect to the virtual machine by using the following command:
 
 Now a terminal opens and following is displayed:
 
-#### vagrant@vagrant-ubuntu-trusty-64:~$
+**vagrant@vagrant-ubuntu-trusty-64:~$**
 
 Navigate to vagrant directory and create the following files:
 #### database_setup.py
