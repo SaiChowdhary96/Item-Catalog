@@ -271,12 +271,15 @@ def deleteGameType(game_type_id):
     if 'username' not in login_session:
         return redirect(url_for('showLogin'))
     game_type = session.query(GameType).filter_by(id=game_type_id).one()
+    pcgames = session.query(PCGames).filter_by(game_type_id=game_type_id).all()
     if game_type.user_id != login_session['user_id']:
         alert = "<script>function myFunction() {alert('You are not authorized"
         alert += "to delete this game type.Please create your own game type in"
         alert += " order to delete.');}</script><body onload='myFunction()''>"
         return alert
     if request.method == 'POST':
+        for pcgame in pcgames:
+            session.delete(pcgame)
         session.delete(game_type)
         session.commit()
         return redirect(url_for('showGameTypes'))
