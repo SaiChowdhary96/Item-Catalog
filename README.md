@@ -16,6 +16,7 @@ CRUD operations.
 * **Python** 
 * **Flask (Python web development framework)**
 * **SQLAlchemy database**
+* **Udacity Vagrant File (https://github.com/udacity/fullstack-nanodegree-vm)**
 
 To install 'Flask' and 'SQLAlchemy' database use the following commands:
 
