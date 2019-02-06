@@ -53,7 +53,7 @@ Navigate to vagrant directory and create the following files:
 
 ### database_setup.py
 This file contains configuration related to databases like tables 
-and their columns. By running this file, a database and their corresponding tables and columns will be created and a file 'pcgames.db' is generated.
+and their columns. By running this file, a database and their corresponding tables and columns will be created and a file **'pcgames.db'** is generated.
 
 Use the following command to run the file
 
